@@ -8,6 +8,17 @@
       "expo-router"
     ],
     "name": "jobs-app",
-    "slug": "jobs-app"
+    "slug": "jobs-app",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f8d9e3ea-ffa6-44df-956b-bb9d18d974e4"
+      }
+    },
+    "android": {
+      "package": "com.pooyam99.jobsapp"
+    }
   }
 }
